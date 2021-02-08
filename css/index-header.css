@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --blue-color: blue;
+    --orange-color: orange;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.header-top-contact {
+    font-weight: 700;
+    justify-content: space-between;
+    background-color: lavender;
+    display: flex;
+    padding: 20px;
+    /* margin: 0px; */
+}
+
+.wl-header {
+    padding-top: 10px;
+}
+
+.contact-title {
+    color:var(--blue-color);
+}
+
+.contact-title a {
+    color:var(--orange-color);
+}
+
+.working-hours {
+    color: var(--blue-color);
+    padding-left: 30px;
+}
+.working-hours span {
+    color: var(--orange-color);
+}
+
+.wr-header {
+    padding: 0px 40px 5px 20px;
+    display: flex;
+}
+
+.social-icons {
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.social-icons img {
+    width: 40px;
+}
+
+.languages{
+    display: flex;
+    padding: 0px 0px 0px 15px;
+}
+
+.lng-img {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.lng-list select{
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(../img/header-img/lang-ic/ua-ic.png);
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+.header-middle-contact {
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header-mdl {
+
+    margin: 20px 0px;
+}
+
+.header-middle-contact {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.menu {
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.menu a {
+    margin-right: 25px;
+    text-decoration-line: none;
+}
+.menu a:hover {
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: var(--orange-color);
+}
+
+.hdr-img {
+    width: 255px;
+    height: 80px;
+}
+
+.sh-cart {
+    border-radius: 20px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    width: 50px;
+    padding: 10px;
+    margin: 5px 10px;
+}
