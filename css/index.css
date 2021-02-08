@@ -22,12 +22,11 @@ body {
 
 .social-icons-items {
     display: flex;
-    margin: 5px;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 li {
-    text-decoration: none;
+    margin-right: 5px;
 }
 
 .wl-header {
@@ -54,6 +53,8 @@ align-items: center;
 
 .header-middle-contact {
     display: flex;
+    align-items: flex-start;
+    list-style-type: none;
 }
 
 .sh-cart {
@@ -63,6 +64,18 @@ align-items: center;
 .hdr-img {
     width: 255px;
     height: 80px;
+}
+
+.prod-list_inner {
+    text-align: center;
+}
+
+.prod-title {
+    font-size: 40px;
+}
+.prod-list_inner p {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .prod-list-content {
