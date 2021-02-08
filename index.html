@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Life</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
         <!-- header-top -->
-        <div class="header-top-contact" style="display: flex;">
-            <span class="contact-title">Телефон:
-                <a href="tel:+380681336383">+380681336383</a>
+        <div class="header-top-contact">
+            <span class="wl-heder">
+                <span class="contact-title">Телефон:
+                    <a href="tel:+380681336383">+38(068)-133-63-83</a>
+                </span>
+                <span class="working-hours">Графік роботи: 24/7</span>
             </span>
-            <span class="working-hours">Графік роботи: 24/7</span>
-            <div class="social-icons">
-                <a href="http://www.facebook.com"><img src="img/header-img/sn-icons/facebook.png" width="30" height="30" alt="іконка фейсбук"></a>
-                <a href="http://www.instagram.com"><img src="img/header-img/sn-icons/instagram.png" width="30" height="30" alt="іконка інстаграм"></a>
-                <a href="http://www.youtube.com"><img src="img/header-img/sn-icons/youtube.png" width="30" height="30" alt="іконка ютуб"></a>
+            <div class="wr-header">
+                <div class="social-icons">
+                    <ul class="social-icons-items">
+                        <li><a href="http://www.facebook.com"><img src="img/header-img/sn-icons/facebook.png" width="30" height="30" alt="іконка фейсбук"></a></li>
+                        <li><a href="http://www.instagram.com"><img src="img/header-img/sn-icons/instagram.png" width="30" height="30" alt="іконка інстаграм"></a></li>
+                        <li><a href="http://www.youtube.com"><img src="img/header-img/sn-icons/youtube.png" width="30" height="30" alt="іконка ютуб"></a></li>
+                    </ul>
+                </div>
             </div>
             <div class="languages">
-                <img src="img/header-img/sn-icons/Google_Translate_Icon.png" width="30" height="30" alt="іконка мови">
-                <span>Мови</span>
-                <select class="languages-list">
-                    <option value="1">UA</option>
-                    <option value="2">RU</option>
-                    <option value="3">EN</option>
-                </select>
+                <img class="lng-img" src="img/header-img/sn-icons/gt-icon.png" alt="іконка мови">
+                <div class="lng-list">
+                    <select>
+                        <option value="1">UA</option>
+                        <option value="2">RU</option>
+                        <option value="3">EN</option>
+                    </select>
+                </div>
             </div>
         </div>
         <!-- header-middle -->
-        <div class="header-middle-contact" style="display: flex;">
-            <img src="img/header-img/logo-icons/logo-small.bmp" width="255" height="80" alt="логотип">
-            <a href="products.html">Продукти</a>
-            <a href="about-us.html">Про магазин</a>
-            <a href="shopping-cart.html"><img src="img/header-img/sn-icons/shopping-cart.png" width="30" height="30" alt="іконка корзини покупок"></a>
+        <div class="header-middle-contact">
+            <ul>
+                <li><a href="products.html">Продукти</a></li>
+                <li><a href="about-us.html">Про магазин</a></li>
+                <a href="shopping-cart.html"><img class="sh-cart" src="img/header-img/sn-icons/shopping-cart.png" alt="іконка корзини покупок"></a>
+                <img class="hdr-img" src="img/header-img/logo-icons/logo-small.bmp" alt="логотип">
+            </ul>
         </div>
     </header>
     <!-- main -->
@@ -62,46 +72,56 @@
                     <h1 class="products-title">Продукти</h1>
                     <p>У нас є все необхідне для Вашого здоров'я.</p>
                 </header>
-                 <div class="prod-list-content" style="display: flex; margin: 20px;">
-                     <div class="products-item">
-                         <a href="#">Рослинні продукти</a><br>
-                         <img src="img/main-img/BAD/Herbal-Products/a.jpg" width="270" height="270" alt="Чиста олія насіння шипшини, 1 унція (30 мл)">
-                         <h4 class="product-title">Чиста олія насіння шипшини, 1 унція (30 мл)</h4>
-                         <span class="product-price">$5.00USD</span>
-                         <br>
-                         <button>Купити</button>
+                 <div class="prod-list-content">
+                     <div class="prod-item">
+                         <article>
+                             <a href="#">Рослинні продукти</a><br>
+                            <img src="img/main-img/BAD/Herbal-Products/a.jpg" alt="Чиста олія насіння шипшини, 1 унція (30 мл)">
+                            <h4 class="product-title">Чиста олія насіння шипшини, 1 унція (30 мл)</h4>
+                            <span class="product-price">$5.00USD</span>
+                            <br>
+                            <button>Купити</button>
+                         </article>
                      </div>
-                     <div class="products-item">
-                         <a href="#">Добавки</a><br>
-                         <img src="img/main-img/BAD/Supplements/a.jpg" width="270" height="270" alt="Гідролізований колаген + гіалуронова кислота + вітамін С, 7,26 унції">
-                         <h4 class="product-title">Гідролізований колаген + гіалуронова кислота + вітамін С, 7,26 унції</h4>
-                         <span class="product-price">$8.00USD</span>
-                         <br>
-                         <button>Купити</button>
+                     <div class="prod-item">
+                         <article>
+                            <a href="#">Добавки</a><br>
+                            <img src="img/main-img/BAD/Supplements/a.jpg" alt="Гідролізований колаген + гіалуронова кислота + вітамін С, 7,26 унції">
+                            <h4 class="product-title">Гідролізований колаген + гіалуронова кислота + вітамін С, 7,26 унції</h4>
+                            <span class="product-price">$8.00USD</span>
+                            <br>
+                            <button>Купити</button>
+                        </article>
                      </div>
-                     <div class="products-item">
-                         <a href="#">Спорт</a><br>
-                         <img src="img/main-img/BAD/Sports/a.jpg" width="270" height="270" alt="Амінокислоти з розгалуженими ланцюгами, 240 капсул">
-                         <h4 class="product-title">Амінокислоти з розгалуженими ланцюгами, 240 капсул</h4>
-                         <span class="product-price">$12.00USD</span>
-                         <br>
-                         <button>Купити</button>
+                     <div class="prod-item">
+                         <article>
+                            <a href="#">Спорт</a><br>
+                            <img src="img/main-img/BAD/Sports/a.jpg" alt="Амінокислоти з розгалуженими ланцюгами, 240 капсул">
+                            <h4 class="product-title">Амінокислоти з розгалуженими ланцюгами, 240 капсул</h4>
+                            <span class="product-price">$12.00USD</span>
+                            <br>
+                            <button>Купити</button>
+                        </article>
                      </div>
-                     <div class="products-item">
-                         <a href="#">Пробіотики</a><br>
-                         <img src="img/main-img/BAD/Probiotics/a.jpg" width="270" height="270" alt="Остаточний пробіотик, старший, 35 мільярдів КУО, 30 капсул">
-                         <h4 class="product-title">Остаточний пробіотик, старший, 35 мільярдів КУО, 30 капсул</h4>
-                         <span class="product-price">$25.00USD</span>
-                         <br>
-                         <button>Купити</button>
+                     <div class="prod-item">
+                         <article>
+                            <a href="#">Пробіотики</a><br>
+                            <img src="img/main-img/BAD/Probiotics/a.jpg" alt="Остаточний пробіотик, старший, 35 мільярдів КУО, 30 капсул">
+                            <h4 class="product-title">Остаточний пробіотик, старший, 35 мільярдів КУО, 30 капсул</h4>
+                            <span class="product-price">$25.00USD</span>
+                            <br>
+                            <button>Купити</button>
+                        </article>
                      </div>
-                     <div class="products-item">
-                         <a href="#">Вітаміни</a><br>
-                         <img src="img/main-img/BAD/Vitamins/a.jpg" width="270" height="270" alt="Золото С, вітамін С, 1000 мг, 60 капсул">
-                         <h4 class="product-title">Золото С, вітамін С, 1000 мг, 60 капсул</h4>
-                         <span class="product-price">$13.00USD</span>
-                         <br>
-                         <button>Купити</button>
+                     <div class="prod-item">
+                         <article>
+                            <a href="#">Вітаміни</a><br>
+                            <img src="img/main-img/BAD/Vitamins/a.jpg" alt="Золото С, вітамін С, 1000 мг, 60 капсул">
+                            <h4 class="product-title">Золото С, вітамін С, 1000 мг, 60 капсул</h4>
+                            <span class="product-price">$13.00USD</span>
+                            <br>
+                            <button>Купити</button>
+                        </article>
                      </div>
                  </div>   
             </div>

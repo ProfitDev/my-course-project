@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 60px 0 60px;
+}
+
+.header-top-contact {
+    font-weight: 700;
+    justify-content: space-between;
+    background-color: lavender;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.working-hours {
+    padding-left: 30px;
+}
+
+.social-icons-items {
+    display: flex;
+    margin: 5px;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.wl-header {
+    padding: auto;
+}
+.wr-header {
+    padding: 0px 40px 5px 20px;
+    display: flex;
+}
+
+.languages{
+    display: flex;
+    padding: 0px 0px 0px 15px;
+}
+
+.lng-img {
+    width: 30px;
+    height: 30px;
+}
+
+.lng-list {
+align-items: center;
+}
+
+.header-middle-contact {
+    display: flex;
+}
+
+.sh-cart {
+    width: 30px;
+    height: 30px;
+}
+.hdr-img {
+    width: 255px;
+    height: 80px;
+}
+
+.prod-list-content {
+    display: flex;
+    border: 3px solid rgb(160, 190, 27);
+    margin: 20px;
+    padding: 20px;
+}
+.prod-item article{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+}
+.prod-list-content img{
+    width: 270px;
+    height: 270px;
+}
