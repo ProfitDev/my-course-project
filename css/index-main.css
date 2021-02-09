@@ -150,6 +150,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
     background-color: #fff;
     padding: 20px;
     margin: 20px;
@@ -170,6 +171,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     margin: 20px 0px;
+}
+.form a:hover {
+    color: var(--orange-color);
+    cursor: pointer;
 }
 
 label input {
