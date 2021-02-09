@@ -5,12 +5,13 @@
     --blue-color: #4e72d0;
     --orange-color: #ef6300;
     --background-color: rgb(245, 246, 250);
+    --light-font: #9a9a9a;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
 }
 

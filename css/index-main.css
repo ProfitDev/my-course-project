@@ -27,7 +27,7 @@ body {
     height: 531px;
     font-size: 16px;
     font-weight: 700;
-    background-color: rgb(245, 246, 250);
+    background-color: var(--background-color);
     padding: 60px 10px 1px 40px;
 }
 .banner-h-discription h1{
@@ -62,7 +62,7 @@ body {
 .prod-list-content button:hover,
 .low-form-content form button:hover {
     color: rgb(162, 248, 33);
-    background-color: rgb(94, 84, 240);
+    background-color: var(--blue-color);
     cursor: pointer;
 }
 
@@ -77,15 +77,18 @@ body {
     font-size: 16px;
 }
 
-.prod-list_inner p, a {
+.prod-list_inner nav {
+    display: inline-flex;
+    color: var(--light-font);
+    font-size: 16px;
+    font-weight: 700;
+}
+.prod-list_inner p {
     color: var(--light-font);
     font-size: 16px;
     font-weight: 700;
 }
 
-.prod-list_inner nav{
-    display: inline-flex;
-}
 .prod-list_inner nav a{
     color:var(--blue-color);
     padding: 15px 20px;
@@ -188,9 +191,16 @@ label textarea {
     margin-top: 20px;
 }
 
-
 .low-form-content form button{
     font-size: 16px;
     width: 206px;
     height: 40px;
+}
+
+.low-form-content {
+    display: flex;
+}
+.low-form-content img {
+    width: 670px;
+    height: 412px;
 }
