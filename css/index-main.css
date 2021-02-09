@@ -11,6 +11,7 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+    /* big middle banner */
 
 .banner-header {
     margin: 5px 0;
@@ -50,7 +51,6 @@ body {
     border-radius: 10px;
 }
 
-
 .banner-h-discription button:hover,
 .prod-list-content button:hover {
     color: rgb(162, 248, 33);
@@ -80,6 +80,14 @@ body {
 .prod-list_inner nav a{
     color:var(--blue-color);
     padding: 15px 20px;
+    text-decoration-line: none;
+}
+
+.prod-list_inner nav a:hover {
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--orange-color);
 }
 
 .prod-list-content {
