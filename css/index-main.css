@@ -58,6 +58,8 @@ body {
     cursor: pointer;
 }
 
+    /* products list container */
+
 .prod-list-container {
     margin: 55px 0;
 }
