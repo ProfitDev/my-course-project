@@ -3,6 +3,7 @@
 :root {
     --blue-color: blue;
     --orange-color: #ef6300;
+    --background-color: rgb(245, 246, 250);
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -37,7 +38,8 @@ body {
 }
 
 .banner-h-discription button,
-.prod-list-content button {
+.prod-list-content button,
+.low-form-content form button {
     width: 150px;
     height: 80px;
     font-size: 24px;
@@ -52,7 +54,8 @@ body {
 }
 
 .banner-h-discription button:hover,
-.prod-list-content button:hover {
+.prod-list-content button:hover,
+.low-form-content form button:hover {
     color: rgb(162, 248, 33);
     background-color: rgb(94, 84, 240);
     cursor: pointer;
@@ -125,4 +128,57 @@ body {
     width: 120px;
     height: 50px;
     font-size: 18px;
+}
+
+/* contact form */
+
+.low-form-content {
+    background-color: var(--background-color);
+    padding: 100px 0;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-text {
+    text-align: left;
+}
+
+.form-text p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.form a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px 0px;
+}
+
+label input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+label textarea {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+
+.low-form-content form button{
+    font-size: 16px;
+    width: 206px;
+    height: 40px;
 }

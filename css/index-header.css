@@ -4,6 +4,7 @@
 :root {
     --blue-color: blue;
     --orange-color: #ef6300;
+    --background-color: rgb(245, 246, 250);
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -16,7 +17,7 @@ body {
 .header-top-contact {
     font-weight: 700;
     justify-content: space-between;
-    background-color: lavender;
+    background-color: var(--background-color);
     display: flex;
     padding: 20px;
 }
