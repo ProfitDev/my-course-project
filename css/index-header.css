@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --blue-color: blue;
+    --blue-color: #4e72d0;
     --orange-color: #ef6300;
     --background-color: rgb(245, 246, 250);
     font-family: 'Montserrat', sans-serif;
@@ -31,7 +31,12 @@ body {
 }
 
 .contact-title a {
+    text-decoration: none;
     color:var(--orange-color);
+}
+.contact-title a:hover {
+    text-decoration: underline;
+    color:var(--blue-color);
 }
 
 .working-hours {
@@ -75,7 +80,6 @@ body {
 }
 
 .header-mdl {
-    
     margin: 20px 0px;
 }
 
@@ -92,6 +96,7 @@ body {
 }
 
 .menu a {
+    color: var(--blue-color);
     margin-right: 45px;
     text-decoration-line: none;
     padding: 5px;

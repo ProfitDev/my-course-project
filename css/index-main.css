@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --blue-color: blue;
+    --blue-color: #4e72d0;
     --orange-color: #ef6300;
     --background-color: rgb(245, 246, 250);
+    --light-font: #9a9a9a;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
@@ -32,6 +33,10 @@ body {
 .banner-h-discription h1{
     font-size: 44px;
     font-weight: 700;
+}
+
+.banner-h-discription span{
+    color: var(--light-font);
 }
 .banner-h-discription button {
     margin-top: 60px;
@@ -73,6 +78,7 @@ body {
 }
 
 .prod-list_inner p, a {
+    color: var(--light-font);
     font-size: 16px;
     font-weight: 700;
 }
@@ -151,10 +157,12 @@ body {
 }
 
 .form-text p {
+    color: var(--light-font);
     font-size: 16px;
     font-weight: bold;
 }
 .form a {
+    color: var(--blue-color);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -162,6 +170,8 @@ body {
 }
 
 label input {
+    font-size: 18px;
+    font-weight: 700;
     width: 200px;
     height: 30px;
     border-radius: 10px;
@@ -169,6 +179,8 @@ label input {
 }
 
 label textarea {
+    font-size: 18px;
+    font-weight: 700;
     width: 200px;
     height: 30px;
     border-radius: 10px;
