@@ -28,13 +28,13 @@ body {
     height: 80px;
 }
 
-.ftr-logo-cont h4, p{
+.ftr-logo-cont{
     color: var(--light-font);
     font-weight: bold;
     padding: 0px 10px;
     width: 250px;
 }
-.ftr-logo-cont h4 span{
+.ftr-logo-cont span{
     color: var(--light-font);
     vertical-align: top;
     font-size: 8px;

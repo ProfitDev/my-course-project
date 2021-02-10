@@ -160,7 +160,7 @@ body {
     text-align: left;
 }
 
-.form-text p {
+.form-text p{
     color: var(--light-font);
     font-size: 16px;
     font-weight: bold;
