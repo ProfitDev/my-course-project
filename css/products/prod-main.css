@@ -12,7 +12,8 @@
 body {
     max-width: 1200px;
     margin: auto;
-}
+} 
+
     /* big middle banner */
 
 .banner-header {
@@ -38,6 +39,12 @@ body {
 .banner-h-discription span{
     color: var(--light-font);
 }
+
+.banner-h-discription > div >  img{
+    width: 100%;
+    display: block;
+}
+
 .banner-h-discription button {
     margin-top: 60px;
 }

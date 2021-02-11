@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --blue-color: #4e72d0;
+    --orange-color: #ef6300;
+    --background-color: rgb(245, 246, 250);
+    --light-font: #9a9a9a;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+*
+table th, td {
+    text-align: center;
+    color: var(--blue-color) ;
+    justify-content: space-between;
+    flex: 1;
+    /* margin: 20px; */
+    padding: 20px;
+}
+td {
+    text-align: center;
+    color: var(--orange-color) ;
+    justify-content: space-between;
+    flex: 1;
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+/* contact form */
+
+.low-form-content {
+    background-color: var(--background-color);
+    padding: 100px 0;
+}
+
+.form {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-text {
+    text-align: left;
+}
+
+.form-text p{
+    color: var(--light-font);
+    font-size: 16px;
+    font-weight: bold;
+}
+.form a {
+    color: var(--blue-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px 0px;
+}
+.form a:hover {
+    color: var(--orange-color);
+    cursor: pointer;
+}
+
+label input {
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+label textarea {
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-top: 20px;
+}
+
+.low-form-content form button {
+    width: 206px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f6fa;
+    text-align: center;
+    background-color: var(--orange-color);
+    padding: 0.35em 1.2em;
+    margin: 0 0.3 0.3 0;
+    transition: 0.7ms;
+    border-radius: 10px;
+}
+
+.low-form-content {
+    display: flex;
+}
+.low-form-content img {
+    width: 670px;
+    height: 412px;
+}

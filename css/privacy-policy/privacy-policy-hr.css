@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --blue-color: #4e72d0;
+    --orange-color: #ef6300;
+    --background-color: rgb(245, 246, 250);
+    --light-font: #9a9a9a;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+    /*.header-menu */
+
+.header-top-menu {
+    font-weight: 700;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    display: flex;
+    padding: 20px;
+}
+
+/* @media (max-width: 680px) {
+    .header-top-menu,
+    .wl-header,
+    .header-mdl {
+        flex-direction: column;
+    }
+} */
+
+.wl-header {
+    padding-top: 10px;
+}
+
+.contact-title {
+    color:var(--blue-color);
+}
+
+.contact-title a {
+    text-decoration: none;
+    color:var(--orange-color);
+}
+.contact-title a:hover {
+    text-decoration: underline;
+    color:var(--blue-color);
+}
+
+.working-hours {
+    color: var(--blue-color);
+    padding-left: 30px;
+}
+.working-hours span {
+    color: var(--orange-color);
+}
+
+.wr-header {
+    padding: 0px 40px 5px 20px;
+    display: flex;
+}
+
+.social-icons {
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.social-icons img {
+    width: 40px;
+}
+
+.languages{
+    display: flex;
+    padding: 0px 0px 0px 15px;
+}
+
+.lng-img {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.lng-list select{
+    font-weight: 700;
+    background-size: cover;
+    background-image: url(/my-course-project/img/header-img/lang-ic/ua-ic.png);
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+.header-mdl {
+    margin: 20px 0px;
+}
+
+.header-middle-contact {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+}
+
+.menu {
+    padding-top: 25px;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.menu a {
+    color: var(--blue-color);
+    margin-right: 45px;
+    text-decoration-line: none;
+    padding: 5px;
+}
+.menu a:hover {
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--orange-color);
+}
+
+.hdr-img {
+    width: 255px;
+    height: 80px;
+}
+
+.sh-cart {
+    border-radius: 20px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    width: 50px;
+    padding: 10px;
+    margin: 5px 10px;
+
+}
