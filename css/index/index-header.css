@@ -24,6 +24,10 @@ body {
     padding: 20px;
 }
 
+.menu a:last-child {
+    display: none;
+}
+
 @media (max-width: 800px) {
     header .wl-header {
         display: grid;
@@ -57,11 +61,13 @@ body {
     .working-hours {
         display: grid;
     }
-    nav .menu a {
+    nav .menu {
         margin: 0;
         padding: 0;
     }
-
+    .menu a:last-child {
+        display: flex;
+    }
 }
 
 .wl-header {
@@ -116,11 +122,13 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
-.header-mdl {
+    /* header middle container */
+
+.header-mdl-wr {
     margin: 20px 0px;
 }
 
-.header-middle-contact {
+.header-middle-nav {
     display: flex;
     justify-content: space-between;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
@@ -130,7 +138,6 @@ body {
 .menu {
     padding-top: 25px;
     font-weight: 700;
-    flex-direction: column;
 }
 
 .menu a {
@@ -139,6 +146,7 @@ body {
     text-decoration-line: none;
     padding: 5px;
 }
+
 .menu a:hover {
     color: #fff;
     border-radius: 5px;
