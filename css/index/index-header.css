@@ -37,7 +37,7 @@ body {
     }
 
 }
-@media (max-width: 700px) {
+@media (max-width: 720px) {
     nav .menu {
         display: grid;
         grid-template-columns: 1fr;
@@ -56,6 +56,10 @@ body {
     .contact-title a,
     .working-hours {
         display: grid;
+    }
+    nav .menu a {
+        margin: 0;
+        padding: 0;
     }
 
 }
