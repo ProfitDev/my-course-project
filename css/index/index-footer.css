@@ -21,11 +21,13 @@ body {
     margin: 40px 0;
     padding: 5px 10px;
     justify-content: space-between;
+    width: 100%;
+    height: auto;
 }
 
 .ftr-logo{
-    width: 255px;
-    height: 80px;
+    width: 100%;
+    height: auto;
 }
 
 .ftr-logo-cont{
@@ -41,6 +43,8 @@ body {
 }
 .ftr-logo-cont {
     padding: 40px 10px;
+    width: 100%;
+    height: auto;
 }
 
 .ftr-icons img {
@@ -130,13 +134,29 @@ h2 {
     nav ul,
     .nav-wr h2,
     .ftr-contacts{
-        line-height: 25px;
+        line-height: 35px;
     }
 }
 
 @media (max-width: 720px) {
 
-    .nav-wr {
+    .nav-wr,
+    .created-by  {
         flex-wrap: wrap;
+    }
+}
+@media (max-width: 530px) {
+    
+    .nav-wr,
+    .ftr-logo-cont{
+        justify-content: center;
+        text-align: center;
+    }
+    .created-by {
+        display: grid;
+        justify-content: center;
+    }
+    footer nav a {
+        text-align: left;
     }
 }
