@@ -26,7 +26,6 @@ body {
 }
 
 .banner-m-discription {
-    width: 100%;
     height: auto;
     font-size: 16px;
     font-weight: 700;
@@ -101,13 +100,15 @@ body {
 @media (max-width: 400px) {
     .banner-m-content {
         display: block;
+        width: inherit;
+        height: auto;
     }
-    .banner-m-discription, h1, p {
+    /* .banner-m-discription, h1, p {
         width: 100%;
         height: auto;
-        padding: 0 5px;
+        padding-left: 5px;
         margin: auto;
-    }
+    } */
     .hdr-img {
         width: 100%;
         height: auto;

@@ -19,7 +19,6 @@ body {
 .ftr-wr {
     display: flex;
     margin: 40px 0;
-    padding: 5px 10px;
     justify-content: space-between;
     width: 100%;
     height: auto;
@@ -33,8 +32,10 @@ body {
 .ftr-logo-cont{
     color: var(--light-font);
     font-weight: bold;
-    padding: 0px 10px;
-    width: 250px;
+    padding: 0px 20px;
+    margin: auto;
+    width: 100%;
+    height: auto;
 }
 .ftr-logo-cont span{
     color: var(--light-font);
@@ -151,6 +152,10 @@ h2 {
     .ftr-logo-cont{
         justify-content: center;
         text-align: center;
+    }
+    .ftr-logo-cont{
+        width: 80%;
+        height: auto;
     }
     .created-by {
         display: grid;
