@@ -57,11 +57,13 @@ body {
     .lng-list {
         padding-top: 20px;
     }
-    .contact-title a,
+    .contact-title,
     .working-hours {
+        font-size: 12px;
         display: grid;
     }
     nav .menu a{
+        font-size: 12px;
         margin: 0;
         padding: 0;
     }
@@ -94,10 +96,10 @@ body {
     color: var(--orange-color);
 }
 
-.wr-header {
+/* .wr-header {
     padding: 0px 40px 5px 20px;
     display: flex;
-}
+} */
 
 .social-icons img {
     width: 40px;

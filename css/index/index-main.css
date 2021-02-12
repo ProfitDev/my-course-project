@@ -16,44 +16,49 @@ body {
 
     /* big middle banner */
 
-.banner-header {
+.banner-main {
     margin: 5px 0;
 }
 
-.banner-h-content {
+
+.banner-m-content {
     display: flex;
+    flex-direction: row;
 }
 
-.banner-h-discription {
-    height: 531px;
+.banner-m-discription {
+    width: 100%;
+    height: auto;
     font-size: 16px;
     font-weight: 700;
     background-color: var(--background-color);
-    padding: 60px 10px 1px 40px;
+    padding: 20px 10px 10px 20px;
 }
-.banner-h-discription h1{
+.banner-m-discription h1{
     font-size: 44px;
     font-weight: 700;
 }
 
-.banner-h-discription span{
+.banner-m-discription p {
     color: var(--light-font);
 }
 
-.banner-h-discription > div > img{
+.banner-m-content img{
+    display: flex;
     width: 100%;
-    display: block;
+    height: auto;
+    flex: 1;
 }
 
-.banner-h-discription button {
-    margin-top: 60px;
-}
+/* .banner-m-discription button {
+    margin-top: 20px;
+} */
 
-.banner-h-discription button,
+.banner-m-discription button,
 .prod-list-content button,
 .low-form-content form button {
-    width: 150px;
-    height: 80px;
+    width: auto;
+    height: auto;
     font-size: 24px;
     font-weight: 700;
     color: #f5f6fa;
@@ -65,7 +70,7 @@ body {
     border-radius: 10px;
 }
 
-.banner-h-discription button:hover,
+.banner-m-discription button:hover,
 .prod-list-content button:hover,
 .low-form-content form button:hover {
     color: rgb(162, 248, 33);
@@ -73,7 +78,49 @@ body {
     cursor: pointer;
 }
 
-    /* products list container */
+@media (max-width: 900px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        font-size: inherit;
+    }
+
+    .banner-m-content button {
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        margin: auto;
+    }
+
+}
+@media (max-width: 500px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        font-size: 70%;
+    }
+
+}
+@media (max-width: 400px) {
+    .banner-m-content {
+        display: block;
+    }
+    .banner-m-discription, h1, p {
+        width: 100%;
+        height: auto;
+        padding: 0 5px;
+        margin: auto;
+    }
+    .hdr-img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/* products list container */
 
 .prod-list-container {
     margin: 55px 0;
