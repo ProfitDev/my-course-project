@@ -24,20 +24,63 @@ body {
     padding: 20px;
 }
 
-/* @media (max-width: 680px) {
-    .header-top-menu,
-    .wl-header,
-    .header-mdl {
-        flex-direction: column;
+.menu a:last-child {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    header .wl-header {
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        flex: 1;
     }
-} */
+    nav .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+
+}
+@media (max-width: 720px) {
+    nav .menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+}
+@media (max-width: 530px) {
+    .sh-cart {
+        display: none;
+    }
+    .social-icons,
+    .lng-list {
+        padding-top: 20px;
+    }
+    .contact-title,
+    .working-hours {
+        font-size: 12px;
+        display: grid;
+    }
+    nav .menu a{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .menu a:last-child {
+        display: flex;
+    }
+}
 
 .wl-header {
+    display: flex;
     padding-top: 10px;
 }
 
-.contact-title {
+.contact-title,
+.working-hours {
     color:var(--blue-color);
+    padding: 5px;
 }
 
 .contact-title a {
@@ -49,23 +92,11 @@ body {
     color:var(--blue-color);
 }
 
-.working-hours {
-    color: var(--blue-color);
-    padding-left: 30px;
-}
 .working-hours span {
     color: var(--orange-color);
 }
 
-.wr-header {
-    padding: 0px 40px 5px 20px;
-    display: flex;
-}
 
-.social-icons {
-    justify-content: flex-end;
-    align-content: flex-start;
-}
 .social-icons img {
     width: 40px;
 }
@@ -89,11 +120,13 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
-.header-mdl {
+    /* header middle container */
+
+.header-mdl-wr {
     margin: 20px 0px;
 }
 
-.header-middle-contact {
+.header-middle-nav {
     display: flex;
     justify-content: space-between;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
@@ -103,7 +136,6 @@ body {
 .menu {
     padding-top: 25px;
     font-weight: 700;
-    flex-direction: column;
 }
 
 .menu a {
@@ -112,6 +144,7 @@ body {
     text-decoration-line: none;
     padding: 5px;
 }
+
 .menu a:hover {
     color: #fff;
     border-radius: 5px;
