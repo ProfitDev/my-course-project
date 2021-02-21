@@ -43,8 +43,10 @@ td {
 }
 
 @media (max-width: 720px) {
-    table
-    display: grid;
+    table {
+        display: grid;
+
+    }
 }
 
 /* contact form */

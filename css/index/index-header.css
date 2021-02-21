@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
     --blue-color: #4e72d0;
@@ -12,11 +12,11 @@
 body {
     max-width: 1200px;
     margin: auto;
-}
+} */
 
     /*.header-menu */
 
-.header-top-menu {
+/* .header-top-menu {
     font-weight: 700;
     justify-content: space-between;
     background-color: var(--background-color);
@@ -31,7 +31,6 @@ body {
 @media (max-width: 800px) {
     header .wl-header {
         display: grid;
-        /* grid-template-columns: 1fr; */
         flex: 1;
     }
     nav .menu {
@@ -57,10 +56,15 @@ body {
     .lng-list {
         padding-top: 20px;
     }
+
+    .wl-header {
+        display: flex;
+        padding-top: 10px;
+    }
     .contact-title,
     .working-hours {
         font-size: 12px;
-        display: grid;
+        display: flex;
     }
     nav .menu a{
         font-size: 12px;
@@ -71,7 +75,7 @@ body {
         display: flex;
     }
 }
-
+/*
 .wl-header {
     display: flex;
     padding-top: 10px;
@@ -115,14 +119,14 @@ body {
 .lng-list select{
     font-weight: 700;
     background-size: cover;
-    background-image: url(/my-course-project/img/header-img/lang-ic/ua-ic.png);
+    background-image: url(/img/header-img/lang-ic/ua-ic.png);
     border-radius: 5px;
     padding: 10px 0px 10px 0px;
-}
+} */
 
     /* header middle container */
 
-.header-mdl-wr {
+/* .header-mdl-wr {
     margin: 20px 0px;
 }
 
@@ -164,4 +168,4 @@ body {
     padding: 10px;
     margin: 5px 10px;
 
-}
+} */

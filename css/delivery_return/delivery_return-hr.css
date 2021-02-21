@@ -115,7 +115,7 @@ body {
 .lng-list select{
     font-weight: 700;
     background-size: cover;
-    background-image: url(/my-course-project/img/header-img/lang-ic/ua-ic.png);
+    background-image: url(/img/header-img/lang-ic/ua-ic.png);
     border-radius: 5px;
     padding: 10px 0px 10px 0px;
 }
