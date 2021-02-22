@@ -50,6 +50,75 @@ td {
 }
 
 /* contact form */
+section div img {
+    width: 100%;
+    height: auto;
+}
+section span img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.h-about-us-discription {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+h3 {
+    margin: 15px;
+}
+
+.wr-ab-us-low {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.b-about-us-img {
+    width: 50%;
+    margin: auto;
+    padding: 70px 10px;
+}
+
+
+.b-about-us-discription {
+    display: block;
+    width: 100%;
+    padding: 100px 0 0 70px;
+}
+@media (max-width: 720px) {
+    .h-about-us-discription {
+        display: grid;
+        width: 90%;
+        height: auto;
+        margin-left: 40px;
+    }
+    .wr-ab-us-low {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+    h3 {
+        text-align: center;
+    }
+    .b-about-us-img {
+        width: 100%;
+        height: auto;
+    }
+    .b-about-us-discription {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        margin: auto;
+    }
+}
+
+/* contact form */
 
 .low-form-content {
     background-color: var(--background-color);
@@ -66,6 +135,7 @@ td {
     margin: 20px;
 }
 
+
 .form-text {
     text-align: left;
 }
@@ -74,6 +144,10 @@ td {
     color: var(--light-font);
     font-size: 16px;
     font-weight: bold;
+}
+
+.form h4, p, a {
+    padding: 5px;
 }
 .form a {
     color: var(--blue-color);
@@ -92,7 +166,8 @@ label input {
     font-weight: 700;
     width: 200px;
     height: 30px;
-    border-radius: 10px;
+    border: 2px solid;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
@@ -100,20 +175,38 @@ label textarea {
     font-size: 18px;
     font-weight: 700;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 8px;
     border: 2px solid;
     margin-top: 20px;
 }
 
 .low-form-content form button{
-    font-size: 16px;
-    width: 206px;
+    width: 200px;
     height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f6fa;
+    text-align: center;
+    background-color: var(--orange-color);
+    border-radius: 10px;
 }
 
 .low-form-content {
     display: flex;
+}
+.low-form-content img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 720px) {
+    .form form,
+    .low-form-content {
+        display: grid;
+        justify-content: center;
+    }
+
 }
 .low-form-content img {
     width: 100%;

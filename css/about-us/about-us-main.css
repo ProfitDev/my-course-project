@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --blue-color: #4e72d0;
+    --orange-color: #ef6300;
+    --background-color: rgb(245, 246, 250);
+    --light-font: #9a9a9a;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
 /* contact form */
 section div img {
     width: 100%;
@@ -84,6 +95,7 @@ h3 {
     margin: 20px;
 }
 
+
 .form-text {
     text-align: left;
 }
@@ -92,6 +104,10 @@ h3 {
     color: var(--light-font);
     font-size: 16px;
     font-weight: bold;
+}
+
+.form h4, p, a {
+    padding: 5px;
 }
 .form a {
     color: var(--blue-color);
@@ -110,7 +126,8 @@ label input {
     font-weight: 700;
     width: 200px;
     height: 30px;
-    border-radius: 10px;
+    border: 2px solid;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
@@ -118,16 +135,21 @@ label textarea {
     font-size: 18px;
     font-weight: 700;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 8px;
     border: 2px solid;
     margin-top: 20px;
 }
 
 .low-form-content form button{
-    font-size: 16px;
-    width: 206px;
+    width: 200px;
     height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f6fa;
+    text-align: center;
+    background-color: var(--orange-color);
+    border-radius: 10px;
 }
 
 .low-form-content {
@@ -139,9 +161,10 @@ label textarea {
 }
 
 @media (max-width: 720px) {
-
+    .form form,
     .low-form-content {
-        display: block;
+        display: grid;
+        justify-content: center;
     }
 
 }

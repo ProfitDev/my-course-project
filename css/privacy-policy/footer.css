@@ -27,29 +27,28 @@ body {
 .ftr-logo{
     width: 100%;
     height: auto;
+    padding: 5px;
 }
 
-.ftr-logo-cont{
+.ftr-logo-container{
     color: var(--light-font);
     font-weight: bold;
     padding: 0px 20px;
     margin: auto;
-    width: 100%;
+    width: 250px;
     height: auto;
 }
-.ftr-logo-cont span{
+
+.ftr-logo-container h4 {
+    padding: 5px;
+}
+.ftr-logo-container span{
     color: var(--light-font);
     vertical-align: top;
     font-size: 8px;
 }
-.ftr-logo-cont {
-    padding: 40px 10px;
-    width: 100%;
-    height: auto;
-}
 
 .ftr-icons img {
-    padding: 10px;
     width: 40px;
 }
 
@@ -71,12 +70,6 @@ h2 {
 
 .manu-nav,
 .ftr-qlinks,
-.ftr-contacts {
-    line-height: 30px;
-}
-
-.manu-nav,
-.ftr-qlinks,
 .ftr-contacts{
     line-height: 40px;
 }
@@ -84,7 +77,6 @@ h2 {
 .manu-nav ul,
 .ftr-qlinks ul {
     color: var(--orange-color);
-    margin-left: -17px;
 }
 
 .manu-nav a,

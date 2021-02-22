@@ -90,6 +90,10 @@ body {
     text-align: center;
     font-size: 16px;
 }
+.prod-list-inner header h1,
+.prod-list-inner p{
+    padding: 10px;
+}
 
 .prod-list-inner p {
     color: var(--light-font);
@@ -99,7 +103,7 @@ body {
 
 .prod-list-inner nav a{
     color:var(--blue-color);
-    padding: 15px 20px;
+    padding: 8px;
     text-decoration-line: none;
 }
 
@@ -144,6 +148,49 @@ body {
     height: 50px;
     font-size: 18px;
 }
+@media (max-width: 900px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        font-size: inherit;
+    }
+
+    .banner-m-content button {
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        margin: auto;
+    }
+
+}
+@media (max-width: 500px) {
+    .banner-m-discription button,
+    .banner-m-discription h1, p {
+        font-size: 70%;
+    }
+
+}
+@media (max-width: 400px) {
+    .banner-m-content {
+        display: block;
+        width: inherit;
+        height: auto;
+    }
+    /* .banner-m-discription, h1, p {
+        width: 100%;
+        height: auto;
+        padding-left: 5px;
+        margin: auto;
+    } */
+    .hdr-img {
+        width: 100%;
+        height: auto;
+    }
+
+}
 
 @media (max-width: 700px){
     /* .prod-list-inner header, */
@@ -185,6 +232,7 @@ body {
     margin: 20px;
 }
 
+
 .form-text {
     text-align: left;
 }
@@ -193,6 +241,10 @@ body {
     color: var(--light-font);
     font-size: 16px;
     font-weight: bold;
+}
+
+.form h4, p, a {
+    padding: 5px;
 }
 .form a {
     color: var(--blue-color);
@@ -211,7 +263,8 @@ label input {
     font-weight: 700;
     width: 200px;
     height: 30px;
-    border-radius: 10px;
+    border: 2px solid;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
@@ -219,20 +272,38 @@ label textarea {
     font-size: 18px;
     font-weight: 700;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 60px;
+    border-radius: 8px;
     border: 2px solid;
     margin-top: 20px;
 }
 
 .low-form-content form button{
-    font-size: 16px;
-    width: 206px;
+    width: 200px;
     height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f6fa;
+    text-align: center;
+    background-color: var(--orange-color);
+    border-radius: 10px;
 }
 
 .low-form-content {
     display: flex;
+}
+.low-form-content img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 720px) {
+    .form form,
+    .low-form-content {
+        display: grid;
+        justify-content: center;
+    }
+
 }
 .low-form-content img {
     width: 100%;
