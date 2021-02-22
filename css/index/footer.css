@@ -34,7 +34,7 @@ body {
     color: var(--light-font);
     font-weight: bold;
     padding: 0px 20px;
-    margin: auto;
+    margin-top: 20px;
     width: 250px;
     height: auto;
 }
@@ -132,28 +132,25 @@ h2 {
 }
 
 @media (max-width: 720px) {
-
     .nav-wr,
     .created-by  {
         flex-wrap: wrap;
     }
-}
-@media (max-width: 530px) {
-    
     .nav-wr,
-    .ftr-logo-cont{
+    .ftr-logo-container{
         justify-content: center;
         text-align: center;
     }
-    .ftr-logo-cont{
-        width: 80%;
+    .ftr-logo-container{
+        max-width: 80%;
         height: auto;
+        margin: auto;
     }
+}
+
+@media (max-width: 530px) {
     .created-by {
         display: grid;
         justify-content: center;
-    }
-    footer nav a {
-        text-align: left;
     }
 }
