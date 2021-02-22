@@ -160,10 +160,18 @@ body {
         height: auto;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .banner-m-discription button,
     .banner-m-discription h1, p {
         margin: auto;
+    }
+    .banner-main,
+    .banner-m-discription {
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-m-content img{
+        display: none;
     }
 
 }
