@@ -15,6 +15,10 @@ section {
     padding: auto;
     margin: 20px;
 }
+.ip-address ul li{
+    margin-left: 30px;
+    padding-left: 20px;
+}
 
 /* contact form */
 

@@ -18,11 +18,11 @@ body {
     /*.header-menu */
 
 .header-top-content {
+    display: flex;
     font-size: 20px;
     font-weight: 700;
     justify-content: space-between;
     background-color: var(--background-color);
-    display: flex;
     padding: 10px;
 }
 .header-top-content-burger {
@@ -64,7 +64,7 @@ body {
     height: 40px;
     font-weight: 700;
     background-size: cover;
-    background-image: url(/img/header-img/lang-ic/ua-ic.png);
+    background-image: url(../img/header-img/lang-ic/ua-ic.png);
     border-radius: 5px;
 }
 

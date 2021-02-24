@@ -152,5 +152,6 @@ h2 {
     .created-by {
         display: grid;
         justify-content: center;
+        text-align: center;
     }
 }
