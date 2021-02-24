@@ -1,6 +1,4 @@
-// JavaScript for adding 
-// slider for multiple images 
-// shown at once
+
 
 $(document).ready(function() {
     $('.slider').slick({

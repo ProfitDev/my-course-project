@@ -53,7 +53,7 @@ body {
 }
 .slider .slick-arrow.slick-next {
     right: 0;
-    background: url(../img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
+    background: url(/img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next:hover,
 .slider .slick-arrow.slick-prev:hover {
