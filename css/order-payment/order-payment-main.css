@@ -11,8 +11,12 @@
 
 
 main{
-    padding-top: 100px;
     margin: 20px;
+}
+
+.h-op-discription p{
+    margin: 0;
+    padding: 5px 0 5px;
 }
 
 /* contact form */
@@ -98,6 +102,10 @@ label textarea {
 }
 
 @media (max-width: 720px) {
+    main{
+        padding-top: 100px;
+        /* margin: 20px; */
+    }
     .form form,
     .low-form-content {
         display: grid;

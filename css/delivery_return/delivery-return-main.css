@@ -10,8 +10,24 @@
 }
 
 main{
-    margin: 20px;
+    padding: 10px;
 }
+
+
+h1, h2{
+    padding: 5px;
+}
+.h-dr-discription  {
+    margin: 5px;
+}
+div ul {
+    padding-left: 25px;
+}
+
+div p:first-child {
+    font-weight: bold;
+}
+
 
 /* contact form */
 
@@ -96,22 +112,21 @@ label textarea {
 }
 
 @media (max-width: 720px) {
+
     .form form,
     .low-form-content {
         display: grid;
         justify-content: center;
     }
-
-}
-.low-form-content img {
-    width: 100%;
-    height: auto;
-}
-
-@media (max-width: 720px) {
+    section {
+        padding-top: 100px;
+    }
 
     .low-form-content {
         display: block;
     }
-
+}
+.low-form-content img {
+    width: 100%;
+    height: auto;
 }
