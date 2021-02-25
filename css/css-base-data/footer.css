@@ -143,15 +143,15 @@ h2 {
         width: 100%;
         height: auto;
     }
-    /* .nav-wr,
-    .ftr-logo-container {
-        justify-content: center;
-        margin: auto;
-    } */
+
     nav ul,
     .nav-wr h2,
     .ftr-contacts{
         line-height: 35px;
+    }
+    .nav-wr h2{
+        line-height: 35px;
+        text-align: center;
     }
 }
 
@@ -179,5 +179,9 @@ h2 {
         display: grid;
         justify-content: center;
         text-align: center;
+    }
+    .ftr-wr {
+        margin: auto;
+        padding-top: 10px;
     }
 }
