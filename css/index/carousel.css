@@ -49,11 +49,11 @@ body {
 .slider .slick-arrow.slick-prev {
     left: 0;
     transform: rotate(180deg);
-    background: url(/img/main-img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
+    background: url(..//img/main-img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next {
     right: 0;
-    background: url(/img/main-img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
+    background: url(my-course-project/img/main-img/icons/ar-right-orange.svg) 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next:hover,
 .slider .slick-arrow.slick-prev:hover {
